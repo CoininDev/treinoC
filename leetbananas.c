@@ -6,7 +6,7 @@ char leetmake(char c){
     //TODO transformar letra
     char ALFABETO[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
     //char LEET[]     = "46<∂3ƒ&#!¿κ1mn0¶9®$+µvw%Ψ246<∂3ƒ&#!¿κ1MN0¶9®$+µVW%Ψ2";
-    char LEET[]     = "46<d3f&#!jk1mn0p9r$7µvw%y246<D3F&#!JK1MN0P9R$7µvw%y2";
+    char LEET[]     = "46<d3f&#!jk1mn0p9r$7uvw%y246<D3F&#!JK1MN0P9R$7uvw%y2";
     char *index = strchr(ALFABETO, c);
 
     if(index == NULL){
